@@ -72,8 +72,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
               leading: new Icon(Icons.people),
             ),
             ListTile(
-              title: new Text("Promotions"),
-              leading: new Icon(Icons.local_offer),
+              title: const Text("Promotions"),
+              leading: const Icon(Icons.local_offer),
             )
           ],
         ),
